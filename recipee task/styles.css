@@ -1,0 +1,45 @@
+.jumbotron {
+    height: 92vh;
+    background-image: url('heroimg.jpg');
+    background-size: cover; 
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    color: white;
+    text-align: center;
+}
+
+.container1 {
+    padding-top: 11em;
+}
+
+
+.inputPassword2 {
+    width: 20em;
+    height: 3em;
+}
+
+#inputRecipe1 {
+    width: 20em;
+    height: 3em;
+}
+
+.search-group {
+    margin-top: 1.5em;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width:575px) {
+    .btn {
+        margin-top: 0.8em;
+        margin-left: 5.5em;
+    }
+
+}

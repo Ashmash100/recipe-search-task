@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.container2 {
+    padding-top: 1em;
+}
+
+.card {
+    border-radius: 5%;
+     margin-bottom: 1.5em; 
+    border: none;
+    
+}
+
+.mainthing {
+    box-shadow: 9px 10px 36px -20px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 9px 10px 36px -20px rgba(0,0,0,0.85);
+    -moz-box-shadow: 9px 10px 36px -20px rgba(0,0,0,0.85);
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.cal-icon {
+    
+    color: rgb(219, 45, 45);
+}
+
+i {
+    padding-right: 0.5em;
+}
+
+
+
+.calories {
+    margin-bottom: 0.5em;
+    font-weight: 500
+}
+
+.badge {
+    margin-right: 0.4em;
+    margin-bottom: 0.2em;
+}
+
+.flex1 {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1em;
+
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.vitamin {
+    font-size: smaller;
+    margin-bottom: 0.5em;
+
+    
+}
+
+.ingredient-list {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#ingredient-list {
+    font-weight: 600;
+}
+
+.collapse-card {
+    border: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.list-group-item {
+    padding-left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
